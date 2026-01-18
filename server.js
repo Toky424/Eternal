@@ -12,15 +12,15 @@ const app = express();
 
 // Configuration depuis variables d'environnement
 const PORT = process.env.PORT || 3000;
-const DISCORD_CLIENT_ID = process.env.DISCORD_CLIENT_ID || '1462030052601368771';
-const DISCORD_CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET || '-BfJQ__WGrYF2OcdjUJemRbP8jIptTDG';
-const DISCORD_CALLBACK_URL = process.env.DISCORD_CALLBACK_URL || 'http://localhost:3000/auth/discord/callback';
-const ADMIN_ROLE_ID = process.env.ADMIN_ROLE_ID || '1461763135030562899';
-const MOD_ROLE_ID = process.env.MOD_ROLE_ID || '1461762748840017971';
-const GUILD_ID = process.env.GUILD_ID || '1461436628227592214';
-const BOT_TOKEN = process.env.BOT_TOKEN || 'MTQ2MjAzMDA1MjYwMTM2ODc3MQ.GCDVzA.e-2DbjhMSw-8ye7mf3WtghJctV5ABejL3K2SuQ';
-const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID || '1461771947288301814';
-const SESSION_SECRET = process.env.SESSION_SECRET || 'eternal-bot-secret-2025-secure-key';
+const DISCORD_CLIENT_ID = process.env.DISCORD_CLIENT_ID;
+const DISCORD_CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET;
+const DISCORD_CALLBACK_URL = process.env.DISCORD_CALLBACK_URL;
+const ADMIN_ROLE_ID = process.env.ADMIN_ROLE_ID;
+const MOD_ROLE_ID = process.env.MOD_ROLE_ID;
+const GUILD_ID = process.env.GUILD_ID;
+const BOT_TOKEN = process.env.BOT_TOKEN;
+const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID;
+const SESSION_SECRET = process.env.SESSION_SECRET;
 
 // Chemins des fichiers JSON (relatifs au dossier dashboard)
 const STATUS_FILE = process.env.STATUS_FILE || './status.json';
