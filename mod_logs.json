@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1768741972722,
+    "action": "TICKET_CLOSE",
+    "moderator": "toky424",
+    "target": "1462433365277020193",
+    "reason": "Fermé via dashboard",
+    "timestamp": "2026-01-18T13:12:52.722Z"
+  },
+  {
+    "id": 1768741594977,
+    "action": "ROLE_REMOVE",
+    "moderator": "toky424",
+    "target": "toky424",
+    "reason": "Rôle Fondateur retiré",
+    "timestamp": "2026-01-18T13:06:34.977Z"
+  },
+  {
+    "id": 1768741592285,
+    "action": "ROLE_ADD",
+    "moderator": "toky424",
+    "target": "toky424",
+    "reason": "Rôle Fondateur ajouté",
+    "timestamp": "2026-01-18T13:06:32.285Z"
+  },
+  {
+    "id": 1768741367726,
+    "action": "ROSTER_REMOVE",
+    "moderator": "toky424",
+    "target": "t",
+    "reason": "Retiré de Equipe-Overwatch",
+    "timestamp": "2026-01-18T13:02:47.726Z"
+  },
+  {
+    "id": 1768741362324,
+    "action": "ROSTER_ADD",
+    "moderator": "toky424",
+    "target": "t",
+    "reason": "Ajouté à Equipe-Overwatch",
+    "timestamp": "2026-01-18T13:02:42.324Z"
+  },
+  {
+    "id": 1768741053418,
+    "action": "ANNOUNCEMENT",
+    "moderator": "toky424",
+    "target": "📖・liste-commandes",
+    "reason": "t",
+    "timestamp": "2026-01-18T12:57:33.418Z"
+  },
+  {
+    "id": 1768740813480,
+    "action": "ANNOUNCEMENT",
+    "moderator": "toky424",
+    "target": "🛡️・staff-chat",
+    "reason": "Test",
+    "timestamp": "2026-01-18T12:53:33.480Z"
+  },
+  {
+    "id": 1768740707687,
+    "action": "KICK",
+    "moderator": "toky424",
+    "target": "testserveur1478",
+    "reason": "test",
+    "timestamp": "2026-01-18T12:51:47.687Z"
+  }
+]
